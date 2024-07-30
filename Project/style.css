@@ -345,8 +345,6 @@ address>h2{
 /*    width: 22px;*/
 /*}*/
 svg{
-    /*width: 22px;*/
-    /*height: 32px;*/
     flex-shrink: 0;
 }
 address>h5{
