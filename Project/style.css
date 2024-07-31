@@ -8,15 +8,18 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.first-section{
+section{
     width: 1280px;
+}
+.first-section{
+    /*width: 100%;*/
     background: url(image/start-screen-gradient-background.png);
     background-size: cover;
     margin-top: 27px;
 }
 header{
     display: flex;
-    width: 1200px;
+    /*width: 1200px;*/
     height: 60px;
     align-items: center;
     gap: 573px;
@@ -90,13 +93,14 @@ button{
     letter-spacing: 1.02px;
     padding: 15px 45px;
     border-radius: 100px;
+    border: none;
 }
 .left-block>button{
     background: #F1CDB3;
 }
 .second-section{
     display: flex;
-    width: 1280px;
+    /*width: 1280px;*/
     padding: 80px 40px 100px 40px;
     justify-content: center;
     align-items: center;
@@ -152,7 +156,7 @@ h5{
 }
 .third-section{
     display: flex;
-    width: 1280px;
+    /*width: 1280px;*/
     padding: 80px 40px 100px 40px;
     justify-content: center;
     align-items: center;
@@ -200,7 +204,7 @@ nav>div>button{
 }
 .fourth-section{
     display: flex;
-    width: 1280px;
+    /*width: 1280px;*/
     padding: 53px 40px 100px 40px;
     justify-content: center;
     align-items: center;
@@ -233,7 +237,7 @@ article{
 }
 .fifth-section{
     display: flex;
-    width: 1280px;
+    /*width: 1280px;*/
     padding: 80px 182px 100px 183px;
     justify-content: center;
     align-items: center;
@@ -291,10 +295,10 @@ article{
     line-height: 18px;
 }
 .sixth-section{
-    width: 1280px;
+    /*width: 1280px;*/
     height: 350px;
     background: url("image/footer-gradient-background.png");
-    margin-bottom: 27px;
+    /*margin-bottom: 27px;*/
 }
 footer{
     width: 1200px;
