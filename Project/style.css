@@ -311,8 +311,6 @@ footer{
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
-    /*margin: 16px 160px 60px 0;*/
-    /*margin-right: 160px;*/
 }
 .contact>h2{
     width: 278px;
@@ -326,34 +324,26 @@ footer{
 .contact h5{
     color: #F1CDB3;
 }
-address{
+.address{
     width: 302px;
-    /*height: 234px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
-address>h2{
+.address>h2{
     width: 270px;
     color: #FFF;
+}
+.address h5{
+    color: #F1CDB3;
 }
 .street1{
     margin: 34px 0 37px 0;
 }
-/*.street1>svg{*/
-/*    width: 22px;*/
-/*}*/
 svg{
     flex-shrink: 0;
 }
-address>h5{
-    /*width: 260px;*/
-    color: #F1CDB3;
-}
-.img{
-    /*margin-left: 160px;*/
-}
-.contact, address{
-    margin-bottom: 60px;
+.contact, .address{
+    margin: 16px 0 60px 0;
 }
